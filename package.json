@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "ts-node-dev src/index.ts",
-    "start": "node build/index.js"
+    "start": "node build/index.js",
+    "build": "tsc"
   },
   "author": "Luis Hernandez",
   "license": "ISC",
