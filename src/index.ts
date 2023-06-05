@@ -34,7 +34,7 @@ const whitelist=[process.env.FRONTEND_URL]
 app.use(cors()); // Habilitar cors
 app.use(express.urlencoded({extended: false}));
 
-const PORT= process.env.PORT || 4001;
+const PORT= process.env.PORT || 3001;
 
 
 // Habilitar carpeta publica
